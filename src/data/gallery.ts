@@ -1,0 +1,97 @@
+import type { GalleryItem } from '@/types';
+
+/** Real lab photos shipped with the site (public/images/lab). */
+export const seedGallery: GalleryItem[] = [
+  {
+    id: 'g1',
+    type: 'photo',
+    title: 'PLC ও SCADA প্র্যাকটিক্যাল ল্যাব — প্রসেস মনিটরিং স্টেশন',
+    category: 'Lab & Equipment',
+    src: '/images/lab/lab-1.webp',
+    date: '2026-10-18',
+  },
+  {
+    id: 'g2',
+    type: 'photo',
+    title: 'সিমেন্স PLC প্যানেল ওয়্যারিং ও টেস্টিং সেশন',
+    category: 'Lab & Equipment',
+    src: '/images/lab/lab-2.webp',
+    date: '2026-10-12',
+  },
+  {
+    id: 'g3',
+    type: 'photo',
+    title: 'ইন্সট্রাক্টরসহ হ্যান্ডস-অন প্যানেল বিল্ডিং ক্লাস',
+    category: 'Training Sessions',
+    src: '/images/lab/lab-3.webp',
+    date: '2026-10-05',
+  },
+  {
+    id: 'g4',
+    type: 'photo',
+    title: 'VFD ও মোটর কন্ট্রোল ট্রেনিং প্যানেল',
+    category: 'Lab & Equipment',
+    src: '/images/lab/lab-4.webp',
+    date: '2026-09-28',
+  },
+  {
+    id: 'g5',
+    type: 'video',
+    title: 'স্টার-ডেল্টা স্টার্টার ওয়্যারিং ডেমো',
+    category: 'Video Tutorials',
+    scene: 'motor',
+    link: 'https://www.facebook.com/share/1EBKkCQVZh/',
+    date: '2026-10-20',
+  },
+  {
+    id: 'g6',
+    type: 'video',
+    title: 'PLC ল্যাডার লজিক — প্রথম প্রজেক্ট',
+    category: 'Video Tutorials',
+    scene: 'plc',
+    link: 'https://www.facebook.com/share/1EBKkCQVZh/',
+    date: '2026-10-10',
+  },
+  {
+    id: 'g7',
+    type: 'video',
+    title: 'HMI স্ক্রিন ডিজাইন লাইভ সেশন',
+    category: 'Video Tutorials',
+    scene: 'hmi',
+    link: 'https://www.facebook.com/share/1EBKkCQVZh/',
+    date: '2026-09-30',
+  },
+  {
+    id: 'g8',
+    type: 'photo',
+    title: 'সোলার পিভি ইনস্টলেশন প্র্যাকটিস',
+    category: 'Training Sessions',
+    scene: 'solar',
+    date: '2026-09-22',
+  },
+  {
+    id: 'g9',
+    type: 'photo',
+    title: 'ইলেকট্রিক্যাল অটোক্যাড ডিজাইন ক্লাস',
+    category: 'Training Sessions',
+    scene: 'autocad',
+    date: '2026-09-15',
+  },
+  {
+    id: 'g10',
+    type: 'video',
+    title: 'সাব-স্টেশন ইকুইপমেন্ট পরিচিতি',
+    category: 'Video Tutorials',
+    scene: 'substation',
+    link: 'https://www.facebook.com/share/1EBKkCQVZh/',
+    date: '2026-09-08',
+  },
+];
+
+export const galleryCategories = [
+  'All',
+  'Lab & Equipment',
+  'Training Sessions',
+  'Video Tutorials',
+  'Events',
+] as const;
