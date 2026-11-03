@@ -5,6 +5,7 @@ import { PageHero } from '@/components/PageHero';
 import { Reveal } from '@/components/Reveal';
 import { SectionHeading } from '@/components/SectionHeading';
 import { LeadershipCard } from '@/components/LeadershipCard';
+import { ImranInstructorCard } from '@/components/ImranInstructorCard';
 import { StatsCounter } from '@/components/StatsCounter';
 import { CtaBanner } from '@/components/CtaBanner';
 import { TechIllustration } from '@/components/illustrations/TechIllustration';
@@ -132,6 +133,7 @@ export default function About() {
 
       {/* Leadership */}
       <LeadershipCard />
+      <ImranInstructorCard />
 
       {/* Timeline */}
       <section className="border-y border-line bg-surface/40 py-10">

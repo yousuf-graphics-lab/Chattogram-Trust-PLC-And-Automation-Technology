@@ -354,6 +354,19 @@ const INTENTS: Intent[] = [
       ),
   },
   {
+    id: 'imran',
+    keys: ['imran', 'evan', 'ইমরান', 'এভান', '2nd instructor', 'second instructor', 'ditio instructor', 'onno instructor'],
+    reply: (l) =>
+      pick(
+        tri(
+          'আমাদের ২য় Instructor & Trainer: Md. Imran Khan Evan — Chief Instructor & Trainer (Electrical), Automation Engineer।\n🎓 BSc in EEE (IEB), Diploma in Electrical Engineering (CPI)\n💼 Owner & CEO, Trust Tech BD; Consultant of CPAS\n🪪 ABC License Holder — Bangladesh Electricity License Board, Dhaka\n📞 +880 1834-678878',
+          'Our 2nd Instructor & Trainer: Md. Imran Khan Evan — Chief Instructor & Trainer (Electrical), Automation Engineer.\n🎓 BSc in EEE (IEB), Diploma in Electrical Engineering (CPI)\n💼 Owner & CEO, Trust Tech BD; Consultant of CPAS\n🪪 ABC License Holder — Bangladesh Electricity License Board, Dhaka\n📞 +880 1834-678878',
+          'Amader 2nd Instructor & Trainer: Md. Imran Khan Evan — Chief Instructor & Trainer (Electrical), Automation Engineer.\n🎓 BSc in EEE (IEB), Diploma in Electrical (CPI)\n💼 Owner & CEO Trust Tech BD; Consultant CPAS\n🪪 ABC License Holder\n📞 +880 1834-678878'
+        ),
+        l
+      ),
+  },
+  {
     id: 'courses',
     keys: ['course', 'courses', 'subjects', 'topics', 'ki ki', 'kon kon', 'কোর্স', 'কি কি'],
     reply: (l) =>
