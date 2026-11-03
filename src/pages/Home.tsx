@@ -16,6 +16,7 @@ import { SectionHeading } from '@/components/SectionHeading';
 import { StatsCounter } from '@/components/StatsCounter';
 import { CourseCard } from '@/components/CourseCard';
 import { LeadershipCard } from '@/components/LeadershipCard';
+import { ImranInstructorCard } from '@/components/ImranInstructorCard';
 import { NoticeBoard } from '@/components/NoticeBoard';
 import { BlogCard } from '@/components/BlogCard';
 import { TestimonialCard } from '@/components/TestimonialCard';
@@ -182,6 +183,7 @@ export default function Home() {
       </section>
 
       <LeadershipCard />
+      <ImranInstructorCard />
 
       {/* ============ GALLERY ============ */}
       <section className="container-x py-10">
